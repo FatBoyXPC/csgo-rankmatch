@@ -34,6 +34,26 @@
             .button {
                 line-height: 10px;
             }
+
+            .input-group .form-control {
+                border-color: #888;
+            }
+
+            .input-group-addon {
+                cursor: pointer;
+            }
+
+            .input-group-addon.has-error {
+                color: #a94442;
+                background-color: #f2dede;
+                border-color: #a94442;
+            }
+
+            .input-group-addon.has-success {
+                color: #3c763d;
+                background-color: #dff0d8;
+                border-color: #3c763d;
+            }
         </style>
     </head>
     <body>
@@ -47,170 +67,242 @@
                 <div class="row">
                     <div class="col-sm-3 col-sm-offset-1">
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="S1" id="s1" class="form-control input-lg">
-                            </div>
-                            <label for="s1" class="col-xs-9">
-                                <img src="images/S1.png" class="img-responsive" alt="Silver 1">
+                            <label for="s1" class="col-xs-12">
                                 Silver 1
+                                <img src="images/S1.png" class="img-responsive" alt="Silver 1">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="S1" id="s1" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="S2" id="s2" class="form-control input-lg">
-                            </div>
-                            <label for="s2" class="col-xs-9">
-                                <img src="images/S2.png" class="img-responsive" alt="Silver 1">
+                            <label for="s2" class="col-xs-12">
                                 Silver 2
+                                <img src="images/S2.png" class="img-responsive" alt="Silver 2">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="S2" id="s2" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="S3" id="s3" class="form-control input-lg">
-                            </div>
-                            <label for="s3" class="col-xs-9">
-                                <img src="images/S3.png" class="img-responsive" alt="Silver 1">
+                            <label for="s3" class="col-xs-12">
                                 Silver 3
+                                <img src="images/S3.png" class="img-responsive" alt="Silver 3">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="S3" id="s3" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="S4" id="s4" class="form-control input-lg">
-                            </div>
-                            <label for="s4" class="col-xs-9">
-                                <img src="images/S4.png" class="img-responsive" alt="Silver 1">
+                            <label for="s4" class="col-xs-12">
                                 Silver 4
+                                <img src="images/S4.png" class="img-responsive" alt="Silver 4">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="S4" id="s4" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="SE" id="se" class="form-control input-lg">
-                            </div>
-                            <label for="se" class="col-xs-9">
-                                <img src="images/SE.png" class="img-responsive" alt="Silver 1">
+                            <label for="se" class="col-xs-12">
                                 Silver Elite
+                                <img src="images/SE.png" class="img-responsive" alt="Silver Elite">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="SE" id="se" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="SEM" id="sem" class="form-control input-lg">
-                            </div>
-                            <label for="sem" class="col-xs-9">
-                                <img src="images/SEM.png" class="img-responsive" alt="Silver 1">
+                            <label for="sem" class="col-xs-12">
                                 Silver Elite Master
+                                <img src="images/SEM.png" class="img-responsive" alt="Silver Elite Master">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="SEM" id="sem" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-3 col-sm-offset-1">
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="GN1" id="gn1" class="form-control input-lg">
-                            </div>
-                            <label for="gn1" class="col-xs-9">
-                                <img src="images/GN1.png" class="img-responsive" alt="Silver 1">
+                            <label for="gn1" class="col-xs-12">
                                 Gold Nova 1
+                                <img src="images/GN1.png" class="img-responsive" alt="Gold Nova 1">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="GN1" id="gn1" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="GN2" id="gn2" class="form-control input-lg">
-                            </div>
-                            <label for="gn2" class="col-xs-9">
-                                <img src="images/GN2.png" class="img-responsive" alt="Silver 1">
+                            <label for="gn2" class="col-xs-12">
                                 Gold Nova 2
+                                <img src="images/GN2.png" class="img-responsive" alt="Gold Nova 2">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="GN2" id="gn2" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="GN3" id="gn3" class="form-control input-lg">
-                            </div>
-                            <label for="gn3" class="col-xs-9">
-                                <img src="images/GN3.png" class="img-responsive" alt="Silver 1">
+                            <label for="gn3" class="col-xs-12">
                                 Gold Nova 3
+                                <img src="images/GN3.png" class="img-responsive" alt="Gold Nova 3">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="GN3" id="gn3" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="GN4" id="gn4" class="form-control input-lg">
-                            </div>
-                            <label for="gn4" class="col-xs-9">
-                                <img src="images/GN4.png" class="img-responsive" alt="Silver 1">
+                            <label for="gn4" class="col-xs-12">
                                 Gold Nova 4
+                                <img src="images/GN4.png" class="img-responsive" alt="Gold Nova 4">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="GN4" id="gn4" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="MG1" id="mg1" class="form-control input-lg">
-                            </div>
-                            <label for="mg1" class="col-xs-9">
-                                <img src="images/MG1.png" class="img-responsive" alt="Silver 1">
+                            <label for="mg1" class="col-xs-12">
                                 Master Guardian 1
+                                <img src="images/MG1.png" class="img-responsive" alt="Master Guardian 1">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="MG1" id="mg1" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="MG2" id="mg2" class="form-control input-lg">
-                            </div>
-                            <label for="mg2" class="col-xs-9">
-                                <img src="images/MG2.png" class="img-responsive" alt="Silver 1">
+                            <label for="mg2" class="col-xs-12">
                                 Master Guardian 2
+                                <img src="images/MG2.png" class="img-responsive" alt="Master Guardian 1">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="MG2" id="mg2" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-3 col-sm-offset-1">
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="MGE" id="mge" class="form-control input-lg">
-                            </div>
-                            <label for="mge" class="col-xs-9">
-                                <img src="images/MGE.png" class="img-responsive" alt="Silver 1">
+                            <label for="mge" class="col-xs-12">
                                 Master Guardian Elite
+                                <img src="images/MGE.png" class="img-responsive" alt="Master Guardian Elite">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="MGE" id="mge" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="DMG" id="dmg" class="form-control input-lg">
-                            </div>
-                            <label for="dmg" class="col-xs-9">
-                                <img src="images/DMG.png" class="img-responsive" alt="Silver 1">
+                            <label for="dmg" class="col-xs-12">
                                 Distinguished Master Guardian
+                                <img src="images/DMG.png" class="img-responsive" alt="Distinguished Master Guardian">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="DMG" id="dmg" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="LE" id="le" class="form-control input-lg">
-                            </div>
-                            <label for="le" class="col-xs-9">
-                                <img src="images/LE.png" class="img-responsive" alt="Silver 1">
+                            <label for="le" class="col-xs-12">
                                 Legendary Eagle
+                                <img src="images/LE.png" class="img-responsive" alt="Legendary Eagle">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="LE" id="le" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="LEM" id="lem" class="form-control input-lg">
-                            </div>
-                            <label for="lem" class="col-xs-9">
-                                <img src="images/LEM.png" class="img-responsive" alt="Silver 1">
+                            <label for="lem" class="col-xs-12">
                                 Legendary Eagle Master
+                                <img src="images/LEM.png" class="img-responsive" alt="Legendary Eagle Master">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="LEM" id="lem" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="SMFC" id="smfc" class="form-control input-lg">
-                            </div>
-                            <label for="smfc" class="col-xs-9">
-                                <img src="images/SMFC.png" class="img-responsive" alt="Silver 1">
+                            <label for="smfc" class="col-xs-12">
                                 Supreme Master First Class
+                                <img src="images/SMFC.png" class="img-responsive" alt="Supreme Master First Class">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="SMFC" id="smfc" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-xs-3">
-                                <input type="text" name="GE" id="ge" class="form-control input-lg">
-                            </div>
-                            <label for="ge" class="col-xs-9">
-                                <img src="images/GE.png" class="img-responsive" alt="Silver 1">
+                            <label for="ge" class="col-xs-12">
                                 The Global Elite
+                                <img src="images/GE.png" class="img-responsive" alt="The Global Elite">
                             </label>
+                            <div class="col-xs-5 col-sm-8 col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon has-error">-</span>
+                                    <input type="text" name="GE" id="ge" class="form-control input-sm csgo-rank">
+                                    <span class="input-group-addon has-success">+</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
