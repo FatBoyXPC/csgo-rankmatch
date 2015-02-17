@@ -22,6 +22,9 @@ You can find a complete list of the Rank strings
 
 *This feature is not yet implemented, coming soon.
 
+PS: Another demo will be posted soon if you want to just provide the set and
+not have to use the entire form.
+
 
 ### Tips (for successful lobby pairing)
 Delta of 0.2-0.6, maximum of 1.2
