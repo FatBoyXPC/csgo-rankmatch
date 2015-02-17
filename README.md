@@ -16,17 +16,19 @@ the method and pass it some options.
 Currently, there are only two options you can pass: ```set``` and
 ```delta```. ```set``` is an array/list of strings that you want to split into two teams. For
 example: ```["GN1", "GN2", "MG1", "MG2"]```. ```delta``` is the minimum
-difference (of each team's average rank) you want to see between the two teams.
+difference (of each team's average rank) you want to see between the two teams.*
 You can find a complete list of the Rank strings
 [here](https://github.com/FatBoyXPC/csgo-rankmatch/blob/master/rankmatch.js#L11).
 
-In my experience, you don't want the delta to be 0 (the average team rank would
-be the same), as CS:GO Matchmaking seems to want a team that "should" be better
-than the other.
+*This feature is not yet implemented, coming soon.
 
 
 ### Tips (for successful lobby pairing)
 Delta of 0.2-0.6, maximum of 1.2
+
+In my experience, you don't want the delta to be 0 (the average team rank would
+be the same), as CS:GO Matchmaking seems to want a team that "should" be better
+than the other.
 
 Set ```mm_dedicated_search_maxping``` to an appropriate value for your player
 base. For example, if you have somebody somebody in Florida, but somebody else
